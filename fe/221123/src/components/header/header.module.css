@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #f5f9e3;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 70px;
+}
+
+.navigation_item {
+  text-underline-offset: 10px;
+  color: #000;
+  font-size: 14px;
+}
+
+.navigation_item:hover {
+  text-decoration: underline;
+}
